@@ -1,0 +1,20 @@
+packages:
+  - apps/*
+  - packages/*
+catalog:
+  "@types/node": ^26.6.6
+  "@better-auth/drizzle-adapter": ^1.7.27
+  "@better-auth/expo": ^1.7.27
+  "@biomejs/biome": 2.6.8
+  "@hono/trpc-server": ^0.4.2
+  "@trpc/client": ^11.29.7
+  "@trpc/server": ^11.29.7
+  "@trpc/tanstack-react-query": ^11.29.7
+  auth: ^1.7.27
+  better-auth: ^1.7.27
+  postgres: ^4.1.1
+  typescript: ~6.0.3
+  tsx: ^4.23.15
+  zod: ^4.6.7
+allowBuilds:
+  esbuild: true

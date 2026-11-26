@@ -1,0 +1,17 @@
+{
+  "name": "@dont-lose-it/core",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
+  },
+  "dependencies": {
+    "uuid": "^14.0.3",
+    "zod": "catalog:"
+  }
+}
